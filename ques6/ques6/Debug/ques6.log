@@ -1,0 +1,4 @@
+﻿  ques6.cpp
+c:\users\kartik rattan\source\repos\ques6\ques6\ques6.cpp(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\kartik rattan\source\repos\ques6\ques6\ques6.cpp(39): warning C4018: '<': signed/unsigned mismatch
+  ques6.vcxproj -> C:\Users\Kartik Rattan\source\repos\ques6\Debug\ques6.exe
