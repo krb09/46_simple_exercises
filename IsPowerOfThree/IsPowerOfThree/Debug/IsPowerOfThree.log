@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  IsPowerOfThree.cpp
+c:\users\kartik rattan\source\repos\ispowerofthree\ispowerofthree\ispowerofthree.cpp(25): warning C4715: 'isDivisibleOfThree': not all control paths return a value
+  IsPowerOfThree.vcxproj -> C:\Users\Kartik Rattan\source\repos\IsPowerOfThree\Debug\IsPowerOfThree.exe

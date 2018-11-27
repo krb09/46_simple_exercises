@@ -1,0 +1,7 @@
+﻿  leetcode3.cpp
+c:\users\kartik rattan\source\repos\leetcode3\leetcode3\leetcode3.cpp(10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\kartik rattan\source\repos\leetcode3\leetcode3\leetcode3.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\kartik rattan\source\repos\leetcode3\leetcode3\leetcode3.cpp(33): warning C4018: '<': signed/unsigned mismatch
+c:\users\kartik rattan\source\repos\leetcode3\leetcode3\leetcode3.cpp(44): warning C4018: '<': signed/unsigned mismatch
+c:\users\kartik rattan\source\repos\leetcode3\leetcode3\leetcode3.cpp(50): warning C4018: '<': signed/unsigned mismatch
+  leetcode3.vcxproj -> C:\Users\Kartik Rattan\source\repos\leetcode3\Debug\leetcode3.exe
