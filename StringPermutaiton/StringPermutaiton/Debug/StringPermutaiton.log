@@ -1,0 +1,4 @@
+﻿  StringPermutaiton.cpp
+c:\users\kartik rattan\source\repos\stringpermutaiton\stringpermutaiton\stringpermutaiton.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\kartik rattan\source\repos\stringpermutaiton\stringpermutaiton\stringpermutaiton.cpp(20): warning C4018: '<': signed/unsigned mismatch
+  StringPermutaiton.vcxproj -> C:\Users\Kartik Rattan\source\repos\StringPermutaiton\Debug\StringPermutaiton.exe
