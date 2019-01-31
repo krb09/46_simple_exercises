@@ -1,2 +1,0 @@
-﻿URL.obj : error LNK2005: _main already defined in StringPermutaiton.obj
-C:\Users\Kartik Rattan\source\repos\StringPermutaiton\Debug\StringPermutaiton.exe : fatal error LNK1169: one or more multiply defined symbols found
