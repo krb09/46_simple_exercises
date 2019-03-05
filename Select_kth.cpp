@@ -2,33 +2,36 @@
 
 #include "pch.h"
 #include <iostream>
-int select_kth_smallest(int[], int, int);
+int select_kth_smallest(int[], int,int, int);
 int partition(int[], int, int);
 using namespace std;
 int main()
 {
 	int a[] = { 5,8,9,1,7,0,3,4,6,2 };
-	int k_index = 5;
+	int k_index = 9;
 	int size = 10;
-	int result_k = select_kth_smallest(a, k_index, size-1);
+	int result_k = select_kth_smallest(a, k_index,0, size-1);
 	cout << result_k << endl;
 	return 0;
 }
-int select_kth_smallest(int a[], int k, int high)
+int select_kth_smallest(int a[], int k,int l, int h)
 {
-	int l = 0;
-	int h = high;
-	while (l < h)
+	int j = partition(a, l, h);
+	if (j == k)
+		return a[j];
+	else
 	{
-		int j = partition(a, l, h);
-		if (j == k)
-			return a[j];
-		else if (j < k)
-			h = j - 1;
-		else
+		if (j < k)
+		{
 			l = j + 1;
+			select_kth_smallest(a, k,l, h);
+		}
+		else
+		{
+			h = j - 1;
+			select_kth_smallest(a, k, l, h);
+		}
 	}
-	return a[l];					//if finally l==h and you did find it
 }
 int partition(int a[], int l, int r)
 {
